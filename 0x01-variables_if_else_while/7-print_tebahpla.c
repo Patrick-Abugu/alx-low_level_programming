@@ -1,16 +1,16 @@
-#include stdio.h
+#include <stdio.h>
 /**
  * main - the main fn
  *
  * Return: something
  *
  */
-int main(0)
+int main(void)
 {
 	int i;
 
 	for (i = 'z'; i >= 'a'; i--)
 		putchar(i);
-	putchar("\n");
+	putchar('\n);
 	return (0);
 }

@@ -5,7 +5,7 @@
   * Return: returns 0
   *
   */
-int main(0)
+int main(void)
 {
 	unsigned char b = '0';
 	int i;
@@ -22,7 +22,7 @@ int main(0)
 		putchar('0' + b);
 		b++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 
 }

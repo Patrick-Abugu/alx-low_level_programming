@@ -19,9 +19,9 @@ int main(void)
 			if (i == j && j == 9)
 				continue;
 			putchar(',');
-			putchar(' ')
+			putchar(' ');
 		}
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
