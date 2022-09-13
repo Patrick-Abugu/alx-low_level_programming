@@ -7,7 +7,7 @@
 
 int _islower(int c)
 {
-	scanf("%d", &d);
+	scanf("%d", &c);
 	if (c > 64 && c < 90)
 	{
 		return (0);
