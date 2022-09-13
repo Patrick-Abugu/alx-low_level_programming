@@ -2,7 +2,7 @@
 /**
   * _islower - the main function
   *
-  * @c -any input
+  * @c: any input
   *
   * Return: always zero
   */
