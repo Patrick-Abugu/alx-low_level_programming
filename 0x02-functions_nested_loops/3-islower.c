@@ -2,6 +2,8 @@
 /**
   * _islower - the main function
   *
+  * c -any input
+  *
   * Return: always zero
   */
 
