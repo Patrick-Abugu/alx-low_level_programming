@@ -19,7 +19,7 @@ void times_table(void)
 		{
 			value = i * j;
 			
-			if (value != 0 || value !< 9 || value !> 9)
+			if (value != 0 || !(value < 9) || !(value > 9))
 			{
 				continue;
 			}
