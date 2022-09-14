@@ -27,10 +27,11 @@ void times_table(void)
 				_putchar('0' + value);
 				_putchar(',');
 				_putchar(' ');
-				j++;
+				_putchar(' ');
 			}
 		}
 		_putchar('\n');
 		i++;
+		j++;
 	}
 }
