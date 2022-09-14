@@ -1,7 +1,7 @@
 #include "main.h"
 /**
   * print_sign - checks if c is lowercase
-  * 
+  *
   * @n: num to be checked
   *
   * Return: A1 if lowercase, 0 if uppercase
