@@ -11,10 +11,10 @@ void jack_bauer(void)
 	int hour = 0;
 	int minute;
 
-	while (hour < 25)
+	while (hour < 24)
 	{
 		minute = 0;
-		while (minute <= 60)
+		while (minute <= 59)
 		{
 			_putchar('0' + (hour / 10));
 			_putchar('0' + (hour % 10));
