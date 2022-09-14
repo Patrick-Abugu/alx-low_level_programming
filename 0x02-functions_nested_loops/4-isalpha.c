@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  * _isalpha
+  * _isalpha - check if an alphabet
   *
   * @c: int to be checked
   *
@@ -9,12 +9,12 @@
 
 int _isalpha(int c)
 {
-	if (( c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
 		return (1);
 	}
 	else
 	{
-		return(0);
+		return (0);
 	}
 }
