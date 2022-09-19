@@ -21,7 +21,6 @@ int _strlen(char *s)
 /**
  * puts_half - prints last half of a string
  * @str: string to be printed
-
  */
 
 void puts_half(char *str)
