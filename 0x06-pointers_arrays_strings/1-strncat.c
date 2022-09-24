@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  **_strncpy - copy string into another
+  **_strncat - concatenatee string into another
   *
   * @dest: destination string
   * @src: source string
@@ -9,7 +9,7 @@
   *
   * Return: return the destination
   */
-char *_strncpy(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 	int j;

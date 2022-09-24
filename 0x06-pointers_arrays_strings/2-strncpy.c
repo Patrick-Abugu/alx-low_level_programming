@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
-  * _strncat - concatenates two strings
+  * _strncpy - cocies one string into another
   *
   * @dest: destination text
   * @src: source text
   * @n: number of times to iterate
   * Return: return the destination text
   */
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
